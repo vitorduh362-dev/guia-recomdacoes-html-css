@@ -1,0 +1,116 @@
+
+/* Configuração padrão de fonte e corpo da página */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Menu de navegação no topo */
+header nav ul {
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #00d2ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ff007f;
+    text-decoration: underline;
+}
+
+/* Layout simples: centralizar e limitar largura máxima */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(20, 20, 20, 0.85);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+/* Estilização de títulos */
+h1 {
+    color: #ff9900;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #00d2ff;
+    border-bottom: 2px solid #00d2ff;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+h3 {
+    color: #ffcc00;
+}
+
+/* Estilização de parágrafos */
+p {
+    font-size: 1rem;
+    color: #dcdcdc;
+}
+
+/* Caixa de conteúdo (Cards) com border, padding e margin (Diferencial) */
+.card {
+    border: 1px solid #444;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+    background-color: rgba(40, 40, 40, 0.6);
+}
+
+/* Imagens responsivas (Diferencial) */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Estilização de links normais e hover */
+a {
+    color: #00ffcc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff007f;
+    text-decoration: underline;
+}
+
+/* Personalização das listas (removendo ou ajustando os estilos) */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+.voltar-topo {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}

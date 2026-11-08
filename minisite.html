@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Guia de Recomendações - Melhores Obras</title>
+    <!-- Requisito de CSS: Vincular o arquivo de estilos -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Diferencial opcional: Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Diferencial opcional: Menu de navegação no topo com links internos -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#filmes">Filmes</a></li>
+                <li><a href="#series">Séries</a></li>
+                <li><a href="#favoritos">Top Favoritos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Título principal com ID para âncora de topo -->
+        <h1 id="topo">Guia de Recomendações de Entretenimento</h1>
+        <p>Bem-vindo ao meu mini-site de recomendações! Aqui você encontrará indicações imperdíveis de produções audiovisuais que marcaram época. Prepare a pipoca e aproveite as dicas!</p>
+
+        <!-- Seção de Filmes -->
+        <section id="filmes">
+            <h2>Filmes em Destaque</h2>
+            <p>O cinema nos proporciona viagens incríveis para outros universos. O filme abaixo é uma verdadeira obra-prima da ficção científica e aventura.</p>
+            
+            <div class="card">
+                <!-- Imagem com src na pasta img/ e alt descritivo -->
+                <img src="img/viagem de chihiro.jpg" alt="Capa ilustrativa do filme de ficção científica em destaque">
+                <p><strong>A Viagem de Chihiro:</strong> Uma jornada fantástica repleta de mistérios, lições de moral e animação impecável do Studio Ghibli. É uma obra que <em>emociona</em> todas as idades.</p>
+                <!-- Link externo -->
+                <a href="https://www.imdb.com" target="_blank">Saiba mais no IMDb</a>
+            </div>
+        </section>
+
+        <!-- Seção de Séries -->
+        <section id="series">
+            <h2>Séries Obrigatórias</h2>
+            <p>Para quem gosta de narrativas profundas e universos complexos, as séries a seguir entregam roteiros impecáveis e personagens inesquecíveis.</p>
+            
+            <div class="card">
+                <img src="img/fullmetal alchemist.jpg" alt="Capa da série Fullmetal Alchemist Brotherhood">
+                <p><strong>Fullmetal Alchemist: Brotherhood:</strong> Acompanha a jornada dos irmãos Elric em busca da Pedra Filosofal. A trama aborda temas profundos sobre sacrifício, ética e laços familiares de forma <em>magistral</em>.</p>
+                <a href="https://www.netflix.com" target="_blank">Assistir na Netflix</a>
+            </div>
+
+            <div class="card">
+                <!-- Terceira imagem relacionada -->
+                <img src="img/sobrenatural.jpg" alt="Capa ilustrativa de uma série de suspense e mistério">
+                <p>Mistérios urbanos e reviravoltas alucinantes fazem desta recomendação uma escolha perfeita para maratonar no fim de semana.</p>
+            </div>
+        </section>
+
+        <!-- Seção de Listas -->
+        <section id="favoritos">
+            <h2>Listas de Recomendações</h2>
+            
+            <!-- Lista não ordenada -->
+            <h3>Gêneros que você vai encontrar por aqui:</h3>
+            <ul>
+                <li>Ficção Científica e Futurismo</li>
+                <li>Fantasia Épica e Aventura</li>
+                <li>Drama e Histórias Emocionantes</li>
+            </ul>
+
+            <!-- Lista ordenada (Top 5 favoritos) -->
+            <h3>Top 3 Favoritos do Guia</h3>
+            <ol>
+                <li>Fullmetal Alchemist: Brotherhood</li>
+                <li>A Viagem de Chihiro</li>
+                <li>Interestelar</li>
+            </ol>
+        </section>
+
+        <!-- Link interno usando âncora -->
+        <p class="voltar-topo"><a href="#topo">Voltar ao topo</a></p>
+    </main>
+
+</body>
+</html>
